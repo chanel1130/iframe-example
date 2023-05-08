@@ -1,0 +1,83 @@
+html,body{
+background-color: black;
+}
+
+.music-player {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  button {
+    background-color: #620947; 
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration:dotted;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #040450;
+  }
+
+.canvas1Frame{
+  background-color: black;
+    position: relative;
+    margin: auto;
+    width: 1800px;
+    height: 800px;
+    
+}
+
+#text1 {
+    color: white;
+    padding: 70px;
+    text-align: left;
+    margin: 200px;
+    left: 50%;
+    font-size: 23px;
+    font-family:'Noto Sans SC';
+}
+
+
+
+#text {
+    color: #7d4b6e;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    left: 20%;
+    font-size: 50px;
+    font-family:'Noto Sans SC', cursive;
+  
+  }
+  
+#name1 {
+    color: white;
+    padding: 100px;
+    text-align: left;
+    margin: 5px;
+    left: 10%;
+    font-size: 120px;
+    font-family:'Great Vibes', cursive;
+}
+
+.canvas3Frame{
+    
+    /* background-color: black; */
+    /* top: 50%; */
+    /* left: 50%;   */
+    position: 0px;
+    margin: auto;
+    width: 1800px;
+    height: 800px;
+}
+
+iframe{
+    display: block;
+}
+
